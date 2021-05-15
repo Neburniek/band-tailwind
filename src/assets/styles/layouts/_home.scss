@@ -1,21 +1,16 @@
-body {
-  margin: 0;
-  padding: 30px;
-  font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+.text-shadow{
+  text-shadow: 2px 2px $shadow;
 }
 
-.uoc-logo {
-  display: block;
-  margin-bottom: 20px;
-  width: 300px;
-  height: auto;
-}
+@layer components {
+  .logo{
+    @apply top-5 font-title text-4xl pt-5 font-black text-center no-underline text-shadow hover:text-title;
+  }
+  .image{
+    @apply mx-auto max-w-full max-h-image;
+  }
+  .video{
+    @apply m-auto w-5/6 md:w-frameBox  h-frame;
+  }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
 }

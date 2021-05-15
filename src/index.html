@@ -1,21 +1,171 @@
 <!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
+    <title>Made of heaven: Band</title>
+</head>
+
+<body class="p-0 m-0 font-body">
+
+    <header>
+        <nav class="w-full p-0 m-auto text-center md:inline-flex md:text-left md:ml-5"><a href="#" class="logo">
+                <p>MADE OF</p>
+                <p class=" text-title">HEAVEN</p>
+            </a>
+            <ul class="p-0 m-0 md:absolute md:inline-flex md:-right-0 md:justify-between md:w-5/12">
+                <li class="flex"><a class="w-full p-4 font-semibold hover:text-title md:text-2xl"
+                        href="./index.html">Band</a></li>
+                <li class="flex"><a class="w-full p-4 font-semibold hover:text-title md:text-2xl" href="#">Blog</a></li>
+                <li class="flex"><a class="w-full p-4 font-semibold hover:text-title md:text-2xl"
+                        href="./page4.html">Content</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="p-5 text-center">
+            <h1 class="text-4xl m-5">Band Members</h1>
+            <div class="md:flex md:flex-wrap md:text-center">
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/singer-sm.jpg" alt="Mike Sanders ready to sing">
+                        <figcaption class="mt-5 font-semibold">Mike Sanders</figcaption>
+                    </figure>
+                    <div>
+                        <span>Singer</span>
+                        <p class="text-justify px-10 pb-5">Mike has won many song contest in England since was a
+                            toddler, was
+                            even
+                            part of the Royal
+                            Liverpool Philharmonic Choir until he decided to form a band together with her girlfriend
+                            Carolina, who is also member of the band. </p>
+                    </div>
+                </div>
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/aura-sm.jpg" alt="Caroline Thomas practicing guitar">
+                        <figcaption class="mt-5 font-semibold">Caroline Thomas</figcaption>
+                    </figure>
+                    <div>
+                        <span>Singer, Guitarrist and keyboardist</span>
+                        <p class="text-justify px-10 pb-5">Caroline Thomas has german roots even if she was born in
+                            California. She
+                            studied music at the
+                            University of Music and Theatre of Liepzig. Currently is studying a Master Degree at
+                            Liverpool Institute for Performing Arts. </p>
+                    </div>
+                </div>
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/guitar-sm.jpg"
+                            alt="Auron Miller shouting with a guitar">
+                        <figcaption class="mt-5 font-semibold">Auron Miller</figcaption>
+                    </figure>
+                    <div>
+                        <span>Guitarrist</span>
+                        <p class="text-justify px-10 pb-5">Auron Miller has been learning to play guitar since he was
+                            12. His
+                            grandfather strongly
+                            believed
+                            that the music was the only thing could make people happy and teached him how to play until
+                            his very last moment. Auron's grandfather passed away in 1999 at the age of 65.</p>
+                    </div>
+                </div>
+
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/bass-sm.jpg" alt="James Macallan playing bass">
+                        <figcaption class="mt-5 font-semibold">James Macallan</figcaption>
+                    </figure>
+                    <div>
+                        <span>Bassist</span>
+                        <p class="text-justify px-10 pb-5">James has been always a rebel. He believe the rules are made
+                            to
+                            break
+                            them and was never a
+                            good
+                            student, he decided to learn how to play the bass since believed that to play the guitar was
+                            so
+                            "Mainstream". He practiced very hard and rare bass styles with the bass being now a truly
+                            professional
+                            with this instrument. He is currently the best bassist you can find in Liverpool.</p>
+                    </div>
+                </div>
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/drum-sm.jpg" alt="Tyler Gilman playing drums">
+                        <figcaption class="mt-5 font-semibold">Tyler Gilman</figcaption>
+                    </figure>
+                    <div>
+                        <span>Drum Player</span>
+                        <p class="text-justify px-10 pb-5">Everybody believe Tyler has been gifted with a special talent
+                            for
+                            playing the drums. Even if
+                            he
+                            never
+                            got a formal education on this instrument, he has always been very talented at it in a
+                            natural
+                            way.
+                            Tyler is currently studying a Master's Degree of Biochemistry at the University of
+                            Liverpool.
+                        </p>
+                    </div>
+                </div>
+                <div class="md:m-auto md:w-imageBox">
+                    <figure>
+                        <img class="image" src="./assets/images/audio-sm.jpg" alt="Susan Wu controling audio">
+                        <figcaption class="mt-5 font-semibold">Susan Wu</figcaption>
+                    </figure>
+                    <div>
+                        <span>Sound Technician & Video Editor</span>
+                        <p class="text-justify px-10 pb-5">Susan Wu is english of hong kong descent. She studied Music
+                            and
+                            Technology in the University
+                            of
+                            Liverpool and is the person in charge to prepare all the equipment for the performances of
+                            the
+                            band before and during the show. She as well is in charge to edit sound and video for the
+                            clips
+                            the band upload to Youtube. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="relative inline-flex w-full text-center">
+
+        <nav class="inline-flex justify-between w-11/12 m-auto border-t border-black md:p-0 md:w-11/12"><a href="#"
+                class="logo">
+                <p>MADE OF</p>
+                <p class="text-title">HEAVEN</p>
+            </a>
+            <ul class="mt-5 md:inline-flex md:w-1/4 md:leading-normal md:justify-between md:text-lg">
+                <li><a class="hover:text-title font-semibold" href="./index.html">Band</a></li>
+                <li><a class="hover:text-title font-semibold" href="#">Blog</a></li>
+                <li><a class="hover:text-title font-semibold" href="./page4.html">Content</a></li>
+            </ul>
+            <div
+                class="mb-20 mt-5 flex flex-col justify-between md:inline-flex md:flex-row md:justify-between md:w-2/12">
+                <a class="hover:text-title " href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a class="hover:text-title" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="hover:text-title" href="#"><i class="fab fa-twitter"></i></a>
+
+            </div>
+
+
+            <span class="absolute bottom-0 text-xs">Pictures
+                from
+                pixabay. This
+                website is a mockup created by Ruben Puerta. All rights reserved.</span>
+        </nav>
+    </footer>
     <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+</body>
+
 </html>
